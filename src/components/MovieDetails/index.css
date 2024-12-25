@@ -1,0 +1,31 @@
+.movie-details-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.movie-details {
+  width: 50%;
+}
+
+.tagline {
+  font-size: 14px;
+  margin: 0;
+  color: grey;
+  font-style: italic;
+  font-family: 'Roboto';
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: '20px';
+  margin-bottom: 0;
+  color: Red;
+}

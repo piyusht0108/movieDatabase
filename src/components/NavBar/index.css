@@ -1,0 +1,70 @@
+.nav-items-list {
+  list-style: none;
+}
+.nav-item {
+  margin-left: 25px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.nav-link-active {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  color: red;
+}
+
+.search-input {
+  outline: none;
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 4px 12px 7px;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-style: italic;
+  color: #acacac;
+  min-width: 250px;
+}
+
+.logo-container {
+  background-image: linear-gradient(to right, #8fce, #03b3e3);
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.page-logo {
+  margin: 0;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 28px;
+  color: #032541;
+  letter-spacing: 1px;
+  line-height: 38px;
+  padding: 0 5px;
+}
+
+.section-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2c2c2c;
+  min-height: 80vh;
+  color: #ffffff;
+}
+
+.navbar-container {
+  background-color: #032541;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px;
+}
