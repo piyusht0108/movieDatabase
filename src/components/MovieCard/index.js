@@ -10,12 +10,13 @@ const MovieCard = props => {
       <div>
         <h1 className="movie-title">{title}</h1>
         <p className="movie-rating">Rating: {voteAverage}</p>
+
+        <Link to={`/movie/${id}`}>
+          <button type="button" className="view-details">
+            View Details
+          </button>
+        </Link>
       </div>
-      <Link to={`/movie/${id}`}>
-        <button type="button" className="view-details">
-          View Details
-        </button>
-      </Link>
     </li>
   )
 }

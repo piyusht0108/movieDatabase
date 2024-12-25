@@ -1,6 +1,41 @@
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.page-numbers {
+  font-family: 'Roboto';
+  font-size: 1rem;
+  text-align: center;
+  margin: 2px;
+}
+
+@media (max-width: 425px) {
+  .page-numbers {
+    text-align: center;
+  }
+}
+
 .next-page {
   border-style: none;
-  background-color: #8b1c15;
+  background-color: darkgreen;
   color: #fff;
-  margin-left: 20px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.control-btn {
+  height: 30px;
+  width: 70px;
+  border-radius: 5px;
+}
+
+.pagination {
+  width: 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }

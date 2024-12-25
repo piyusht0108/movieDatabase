@@ -18,7 +18,7 @@ const NavBar = props => {
         }
 
         return (
-          <div>
+          <div className="search-container">
             <input
               type="text"
               className="search-input"
@@ -26,7 +26,11 @@ const NavBar = props => {
               value={searchInput}
               placeholder="Search"
             />
-            <button type="button" onClick={onSearchHandler}>
+            <button
+              type="button"
+              className="search-btn"
+              onClick={onSearchHandler}
+            >
               Search
             </button>
           </div>
@@ -35,11 +39,11 @@ const NavBar = props => {
     </SearchMoviesContent.Consumer>
   )
   return (
-    <nav className="navbar-container">
+    <div className="navbar-container">
       <div className="logo-container">
         <h1 className="page-logo">MovieDB</h1>
       </div>
-      <div>
+      <div className="navbar-right-section">
         <ul className="nav-items-list">
           <li className="nav-item">
             <Link className="nav-link" to="/">
@@ -59,7 +63,7 @@ const NavBar = props => {
         </ul>
         {renderSearchBar()}
       </div>
-    </nav>
+    </div>
   )
 }
 

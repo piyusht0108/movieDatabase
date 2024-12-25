@@ -26,7 +26,7 @@ class MovieDetails extends Component {
 
   render() {
     const {movieDetails} = this.state
-    const {title, overview, tagline, status} = movieDetails
+    const {title, overview, tagline} = movieDetails
     const posterPath = `https://image.tmdb.org/t/p/w500${movieDetails.poster_path}`
     return (
       <div className="movie-details-container">

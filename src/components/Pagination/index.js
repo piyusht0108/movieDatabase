@@ -44,22 +44,24 @@ class Pagination extends Component {
     const {pageNo} = this.state
 
     return (
-      <div>
-        <button
-          type="button"
-          className="control-btn next-page"
-          onClick={this.onPrevPage}
-        >
-          Prev
-        </button>
-        <p className="page-numbers">{pageNo}</p>
-        <button
-          type="button"
-          className="control-btn next-page"
-          onClick={this.onNextPage}
-        >
-          Next
-        </button>
+      <div className="pagination-container">
+        <div className="pagination">
+          <button
+            type="button"
+            className="control-btn next-page"
+            onClick={this.onPrevPage}
+          >
+            Prev
+          </button>
+          <p className="page-numbers">{pageNo}</p>
+          <button
+            type="button"
+            className="control-btn next-page"
+            onClick={this.onNextPage}
+          >
+            Next
+          </button>
+        </div>
       </div>
     )
   }

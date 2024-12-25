@@ -5,3 +5,10 @@
   justify-content: center;
   align-items: center;
 }
+
+.route-page-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
